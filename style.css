@@ -1,0 +1,157 @@
+
+#useri{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+
+}
+#comi{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    float: right;
+}
+div#ans img{
+    width: 100px;
+    height: 100px;
+}
+
+.pop{
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display:grid;
+    margin-top: 30px;
+}
+#para{
+    
+    width: auto;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+
+}
+#declare{
+    height: 50px;
+}
+.newbt{
+    width: 100px;
+    height: 50px;
+    
+}
+.t{
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Brush Script MT', cursive;
+    color: #160057;
+    font-weight: bold;
+}
+.bR{
+width: 180px;
+height: 60px;
+font-size: 23px;
+font-family: 'Alkatra', cursive;
+border-radius: 16px;
+}
+.bP{
+width: 180px;
+height: 60px;
+font-size: 23px;
+font-family: 'Alkatra', cursive;
+margin-left: 15px;
+border-radius: 16px;
+}
+.bS{
+width: 180px;
+height: 60px;
+font-size: 23px;
+font-family: 'Alkatra', cursive;
+margin-left: 15px;
+border-radius: 16px;
+}
+h4{
+font-size: 28px;
+font-family: 'Alkatra', cursive;
+}
+b{
+font-size: 40px;
+font-family: 'Alkatra', cursive;
+}
+.fan{
+display: flex;
+}
+.fand1{
+margin-right: 20px;
+border: solid black;
+border-radius: 10px;
+padding: 12px;
+}
+.fand2{
+margin-right: 20px;
+border: solid black;
+border-radius: 10px;
+padding: 12px;
+}
+.fand3{
+margin-right: 20px;
+border: solid black;
+border-radius: 10px;
+padding: 12px;
+}
+#ans{
+   display: none;
+}
+
+
+@media(max-width:430px) and (min-width:400px){
+    .bR{
+        width:100px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .bP{
+        width:100px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .bS{
+        width:100px;
+        height: 40px;
+        font-size: 17px;
+    }
+    
+}
+@media(max-width:390px){
+    .ans{
+        width: 340px;
+    }
+    .t{
+        font-size: 30px;
+    }
+    .bR{
+        width:90px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .bP{
+        width:90px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .bS{
+        width:90px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .fand1{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .nine{
+        background-color:coral;
+    }
+
+
+}
